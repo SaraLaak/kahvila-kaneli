@@ -14,13 +14,14 @@ header {
 nav {
     background-color: #d4a373;
     padding: 15px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin: 15px;
     font-weight: bold;
 }
 
@@ -29,14 +30,18 @@ nav a:hover {
 }
 
 main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
     max-width: 1000px;
-    margin: auto;
+    margin: 20px auto;
 }
 
 section {
+    flex: 1 1 400px;
     background-color: white;
     padding: 20px;
-    margin: 20px;
     border: 1px solid #cccccc;
 }
 
