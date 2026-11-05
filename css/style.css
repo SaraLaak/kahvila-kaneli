@@ -2,6 +2,10 @@ body {
     background-color: #f8f4ee;
     color: #333333;
     font-family: Arial, sans-serif;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -36,6 +40,7 @@ main {
     gap: 20px;
     max-width: 1000px;
     margin: 20px auto;
+    flex: 1;
 }
 
 section {
@@ -50,4 +55,12 @@ footer {
     color: white;
     text-align: center;
     padding: 15px;
+
+    position: relative;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
 }
